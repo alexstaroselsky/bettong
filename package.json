@@ -1,0 +1,43 @@
+{
+  "name": "bettong",
+  "version": "0.0.0-development",
+  "description": "Web crawler in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git cz",
+    "test": "test",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexstaroselsky/bettong.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "javascript",
+    "crawler",
+    "nodejs",
+    "html",
+    "screenshots"
+  ],
+  "author": {
+    "name": "Alexander Staroselsky",
+    "url": "https://github.com/alexstaroselsky"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexstaroselsky/bettong/issues"
+  },
+  "homepage": "https://github.com/alexstaroselsky/bettong#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "puppeteer": "^2.0.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "git-cz": "^3.3.0",
+    "semantic-release": "^15.4.0",
+    "travis-deploy-once": "^5.0.11"
+  }
+}
