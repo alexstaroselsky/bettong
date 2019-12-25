@@ -1,3 +1,10 @@
+## [0.0.5](https://github.com/alexstaroselsky/bettong/compare/v0.0.4...v0.0.5) (2019-12-25)
+
+
+### Bug Fixes
+
+* 🐛 Added logic to exclude pages based ([21d2a0a](https://github.com/alexstaroselsky/bettong/commit/21d2a0a9753a7fd5e6ea4d3c68ae3ccc41284baf))
+
 ## [0.0.4](https://github.com/alexstaroselsky/bettong/compare/v0.0.3...v0.0.4) (2019-12-25)
 
 
