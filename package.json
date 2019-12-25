@@ -1,6 +1,6 @@
 {
   "name": "bettong",
-  "version": "0.0.0-development",
+  "version": "0.0.2",
   "description": "Web crawler in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "crawler",
     "nodejs",
     "html",
-    "screenshots"
+    "screenshot"
   ],
   "author": {
     "name": "Alexander Staroselsky",
@@ -36,9 +36,10 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
     "git-cz": "^3.3.0",
     "jest": "^24.9.0",
-    "semantic-release": "^15.4.0",
-    "travis-deploy-once": "^5.0.11"
+    "semantic-release": "^15.14.0"
   }
 }
