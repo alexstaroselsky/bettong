@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/alexstaroselsky/bettong/compare/v0.0.3...v0.0.4) (2019-12-25)
+
+
+### Bug Fixes
+
+* 🐛 Updated .releaserc to ensure npm plugin included ([3ab23f5](https://github.com/alexstaroselsky/bettong/commit/3ab23f54caa2d181ebe82a7e5af8353c27278342))
+
 ## [0.0.3](https://github.com/alexstaroselsky/bettong/compare/v0.0.2...v0.0.3) (2019-12-25)
 
 
