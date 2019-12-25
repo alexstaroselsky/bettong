@@ -1,3 +1,10 @@
+# [0.1.0](https://github.com/alexstaroselsky/bettong/compare/v0.0.5...v0.1.0) (2019-12-25)
+
+
+### Features
+
+* 🎸 Added exclude pattern option ([8db9dd6](https://github.com/alexstaroselsky/bettong/commit/8db9dd6a50e3e6bd44f2bc6362e03f59cd7e5fd9))
+
 ## [0.0.5](https://github.com/alexstaroselsky/bettong/compare/v0.0.4...v0.0.5) (2019-12-25)
 
 
