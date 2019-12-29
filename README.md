@@ -21,12 +21,49 @@ Bettong uses [async/await](https://developer.mozilla.org/en-US/docs/Web/JavaScri
 
 ## Usage
 
+### Node.js
+
+Install bettong
+
+```sh
+npm install --save bettong
+```
+
 ```js
 const Bettong = require('bettong');
 
 const bettong = new Bettong('https://foo.bar');
 await bettong.exec();
+```
 
+### CLI
+
+```sh
+Usage: bettong exec [options] <base-url>
+
+Execute crawling starting from the required base url <base-url>
+
+Options:
+  -o, --output-path <path>         relative output path (default: "dist")
+  -e, --exclude-pattern <pattern>  RegExp page exclude pattern (default: "")
+  -s, --screenshot <screenshot>    save screenshots (default: true)
+  -h, --html <screenshot>          save html content (default: true)
+  -v, --viewport <viewport>        viewport for screenshots, e.g. '{"width":128,"height":128}'
+  -h, --help                       output usage information
+```
+
+Install bettong globally
+
+```sh
+npm install -g bettong
+```
+
+#### Samples
+
+Start crawling at https://foo.bar and exclude crawling pages that contain `'baz'` in the url.
+
+```sh
+bettong exec https://foo.bar -e '.*baz.*'
 ```
 
 ## Output

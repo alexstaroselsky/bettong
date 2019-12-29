@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Web crawler in JavaScript",
   "main": "index.js",
+  "bin": {
+    "bettong": "./bin/index.js"
+  },
   "scripts": {
     "commit": "git cz",
     "test": "jest",
@@ -31,8 +34,8 @@
   },
   "homepage": "https://github.com/alexstaroselsky/bettong#readme",
   "dependencies": {
+    "commander": "^4.0.1",
     "lodash": "^4.17.15",
-    "minimatch": "^3.0.4",
     "puppeteer": "^2.0.0",
     "uuid": "^3.3.3"
   },
