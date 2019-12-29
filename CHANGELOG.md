@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/alexstaroselsky/bettong/compare/v0.1.0...v0.2.0) (2019-12-29)
+
+
+### Features
+
+* 🎸 Added CLI functionality ([c40838d](https://github.com/alexstaroselsky/bettong/commit/c40838dbd58214b3f185966d7b80df9fe900b7b7))
+
 # [0.1.0](https://github.com/alexstaroselsky/bettong/compare/v0.0.5...v0.1.0) (2019-12-25)
 
 
