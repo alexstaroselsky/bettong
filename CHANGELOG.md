@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/alexstaroselsky/bettong/compare/v0.2.0...v0.2.1) (2019-12-29)
+
+
+### Bug Fixes
+
+* 🐛 Added missing shebang line ([3082184](https://github.com/alexstaroselsky/bettong/commit/3082184b9d7b299caacd52b3d84a7a776906ac97))
+
 # [0.2.0](https://github.com/alexstaroselsky/bettong/compare/v0.1.0...v0.2.0) (2019-12-29)
 
 
